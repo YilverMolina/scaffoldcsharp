@@ -1,0 +1,37 @@
+{
+  "name": "scaffoldcsharp",
+  "version": "1.0.0",
+  "description": "Models generator from MySQL to CSharp.",
+  "license": "MIT",
+  "repository": "https://github.com/YilverMolina/scaffoldcsharp",
+  "author": {
+    "name": "Yilver Molina Hurtatiz",
+    "url": "https://github.com/YilverMolina"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "files": [
+    "index.js",
+    "example/",
+    "scanners/"
+  ],
+  "keywords": [
+    "model",
+    "csharp",
+    "generator",
+    "scaffold",
+    "mysql",
+    "sql",
+    "auto",
+    "models",
+    "generate"
+  ],
+  "dependencies": {
+    "gencode": "^1.0.3",
+    "mkdir-promise": "^1.0.0"
+  }
+}
